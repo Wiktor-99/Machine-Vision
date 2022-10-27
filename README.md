@@ -2,7 +2,7 @@
 
 ## To run
 
-* compile `c++ client g++ cpp_client/main.cpp -o app -std=c++17`
+* compile c++ client `g++ cpp_client/main.cpp -o app -std=c++17`
 
 * open two terminals
 * in first terminal run ./app
