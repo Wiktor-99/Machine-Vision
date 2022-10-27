@@ -34,7 +34,7 @@ std::tuple<int, int, std::string> decode_message(char* message){
 int main() {
     int fd;
     const char *fifo = "pipe";
-    constexpr std::size_t message_size{6};
+    constexpr std::size_t message_size{20};
     mkfifo(fifo, 0666);
     fd = open(fifo, O_RDONLY);
     char message[message_size];
