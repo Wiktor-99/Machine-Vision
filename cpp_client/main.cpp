@@ -35,7 +35,6 @@ int main() {
     int fd;
     const char *fifo = "pipe";
     constexpr std::size_t message_size{20};
-    mkfifo(fifo, 0666);
     fd = open(fifo, O_RDONLY);
     char message[message_size];
 
